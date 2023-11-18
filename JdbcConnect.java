@@ -14,8 +14,8 @@ public class JdbcConnect {
          Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/ashaDB","root","Vinayak");
 	     System.out.println(" Java Application Connection with database through JDBC done sucessfully");
 	}
-        catch(Exception e){
-        e.printStackTrace();
+        catch(Exception ex){
+        ex.printStackTrace();
     }
   }
 }
