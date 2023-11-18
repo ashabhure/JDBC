@@ -8,7 +8,8 @@ const[activity,setActivity]=useState("")
       <div className='header'>ToDo List</div>
      <input type='text' placeholder='Add Activity' value={activity} onChange={(e)=> setActivity(e.target.value)}/>
       </div>
-      </>
+     
+    </>
     )
   }
 export default TodoList
